@@ -1,0 +1,13 @@
+.tableItemIcon {
+	margin-left: 1em;
+	border: none;
+	background: none;
+	outline: none;
+	&Single {
+		margin-left: 1em;
+		border: none;
+		background: none;
+		outline: none;
+		cursor: default !important;
+	}
+}

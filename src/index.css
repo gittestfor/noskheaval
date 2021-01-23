@@ -1,0 +1,19 @@
+* {
+	font-family: "Vazir";
+}
+
+.ant-input-prefix {
+	margin-left: .5em !important;
+}
+
+.anticon-download {
+	margin-left: 1em !important;
+}
+
+.anticon-search {
+	margin-left: 1em !important;
+}
+
+.anticon-filter {
+	margin-left: 1em !important;
+}

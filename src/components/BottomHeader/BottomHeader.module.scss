@@ -1,0 +1,36 @@
+.bottomHeader {
+	background: rgb(232, 232, 232);
+	background: linear-gradient(
+		180deg,
+		rgba(232, 232, 232, 1) 0%,
+		rgba(239, 239, 239, 1) 49%,
+		rgba(221, 221, 221, 1) 63%,
+		rgba(232, 232, 232, 1) 100%
+	);
+	display: flex;
+	align-items: center;
+	direction: rtl;
+	border: 1px solid rgb(218, 218, 218);
+	padding: 10px 0;
+	width: 100%;
+	&__signin {
+		margin-right: 4em;
+		display: flex;
+		align-items: center;
+	}
+	&__btn {
+		background: none;
+		border: none;
+		display: flex;
+		align-items: center;
+		outline: none;
+		transition: all .2s;
+		border-radius: 8px;
+		&:focus {
+			outline: none;
+		}
+		&:hover {
+			box-shadow: 0 0 10px rgb(189, 189, 189);
+		}
+	}
+}
